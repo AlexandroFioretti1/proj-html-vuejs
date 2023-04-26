@@ -20,13 +20,9 @@ export default {
 </script>
 
 <template>
-
   <AppHeader></AppHeader>
   <AppMain></AppMain>
   <AppFooter></AppFooter>
-
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

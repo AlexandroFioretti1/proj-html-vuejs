@@ -12,14 +12,7 @@ export default {
 </script>
 
 <template>
-  <!-- copyright footer -->
-  <footer>
-    <div>
-      <span>Footer &copy;</span>
-    </div>
-  </footer>
+  <footer></footer>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

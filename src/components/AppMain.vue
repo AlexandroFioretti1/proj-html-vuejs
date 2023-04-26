@@ -11,12 +11,9 @@ export default {
   },
 };
 </script>
+
 <template>
-  <main>
-    <h3>Main</h3>
-  </main>
+  <main></main>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
