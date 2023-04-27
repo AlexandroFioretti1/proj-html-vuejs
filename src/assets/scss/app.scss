@@ -1,5 +1,11 @@
 @use "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
 /* header region */
 /* section Music_Life  */
 #music_life {
@@ -15,7 +21,9 @@
 /*   section info_brand  */
 #info_latest_brand {
   background-color: #292d39;
-  margin: -16px;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+
   h2 {
     color: white;
     margin: 20px;
@@ -29,11 +37,10 @@
 #latest_brand {
   background-color: #292d39;
   color: #aeaeaf;
-  .card{
-  background-color: #292d39;
-
+  .card {
+    background-color: #292d39;
   }
-  h6 {
+  h5 {
     color: #eb5b54;
   }
 }
@@ -52,12 +59,14 @@
   color: white;
   height: 1000px;
   width: 100%;
+  .card {
+    border: none;
+  }
 }
 
 /* section live_dates */
 #live_dates {
   background-color: #292d39;
-  margin: -16px;
   h2 {
     color: white;
   }
@@ -65,14 +74,16 @@
     color: #aeaeaf;
   }
 }
+
 /* ./ section live_dates */
 /* ./ header region */
 
 /* footer region */
 #footer_nav {
   background-color: #6b6b6c;
-  .light_c {
-    color: white;
+  a {
+    text-decoration: none;
+    color: #aeaeaf;
   }
 }
 

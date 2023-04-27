@@ -13,34 +13,41 @@ export default {
 
 <template>
   <footer>
+
     <!-- navbar whit footer -->
     <nav id="footer_nav">
       <div class="d-flex justify-content-between text-align-center p-3">
         <img class="p-2" src="../assets/img/avada-music-logo.png" alt="Logo footer"/>
         <ul class="list-unstyled d-flex text-center align-items-center p-4 gap-2">
-          <li class="light_c">Home</li>
-          <li>Meet The Brand</li>
-          <li>Live Dates</li>
-          <li>Latest News</li>
-          <li>Fans</li>
+          <li><a href="" class="text-light">Home</a></li>
+          <li><a href="">Meet The Brand</a></li>
+          <li><a href="">Live Dates</a></li>
+          <li><a href="">Latest News</a></li>
+          <li><a href="">Fans</a></li>
         </ul>
       </div>
     </nav>
     <!-- ./ navbar whit footer -->
 
-    <!-- footer_copyright -->
+    <!-- section footer_copyright -->
     <section id="copyright_footer">
       <div class="d-flex justify-content-between text-align-center p-3">
         <ul class="list-unstyled d-flex text-center align-items-center p-4 gap-2">
-          <li class="light_c">&copy; Copyright 2012 - 2020 |</li>
+          <li>&copy; Copyright 2012 - 2020 |</li>
           <li>AVADA THEME BY THEMEFUSION |</li>
           <li>ALL RIGHTS RESERVED |</li>
           <li>POWERED BY WORDPRESS</li>
         </ul>
         
+        <div class="social gap-2 d-flex justify-content-between text-align-center p-4">
+        <div>fb</div>
+        <div>tw</div>
+        <div>insta</div>
+        <div>yt</div>
+      </div>
       </div>
     </section>
-    <!-- ./ footer_copyright -->
+    <!-- ./ section footer_copyright -->
   </footer>
 </template>
 
