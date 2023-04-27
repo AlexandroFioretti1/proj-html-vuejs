@@ -14,6 +14,5 @@ import {
 
 library.add(faBars)
 
-
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
 

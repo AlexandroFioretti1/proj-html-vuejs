@@ -19,98 +19,74 @@ export default {
       <div class="container text-center pt-5">
         <h2>Music Is Life</h2>
         <hr class="light_gray" />
-        <p class="light_gray pb-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-          voluptatem itaque ipsam eaque libero possimus at magnam ea hic
-          doloribus.
-        </p>
+        <p class="light_gray pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatem itaque ipsam eaque libero possimus at magnam ea hic doloribus.</p>
       </div>
     </section>
     <!-- ./ section Music_Life -->
 
-    <!-- ./ section latest Brand News -->
+    <!--  section latest Brand News -->
     <section id="info_latest_brand">
       <div class="container text-center pt-5">
         <h2>Latest Brand News</h2>
         <hr class="light_gray" />
-        <p class="light_gray pb-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-          voluptatem itaque ipsam eaque libero possimus at magnam ea hic
-          doloribus.
-        </p>
+        <p class="light_gray pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatem itaque ipsam eaque libero possimus at magnam ea hic doloribus.</p>
       </div>
     </section>
     <!-- ./ section latest Brand News -->
 
     <!-- section tecnology -->
     <section id="latest_brand">
-      <div class="container">
+      <div class="container m-auto">
         <div class="row">
           <div class="col-8 pt-5">
-            <div class="tecnology">
+            <div class="card my-3">
               <img src="../assets/img/blog_music_techo-800x400.jpg" class="w-100" alt="#" />
               <div class="info_card">
                 <h6>Tecnology Music</h6>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam, sequi?
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sequi?
                 </p>
               </div>
             </div>
             <div class="container p-0">
               <div class="row">
                 <div class="col-6">
-                  <div class="tecnology">
-                    <img src="../assets/img/blog_music_techo-800x400.jpg" class="w-100" alt="#" />
+                  <div class="card my-3">
+                    <img src="../assets/img/blog-post3-600x900.jpg" class="w-100" alt="#" />
                     <div class="info_card">
                       <h6>Tecnology Music</h6>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Aliquam, sequi?
-                      </p>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sequi?</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-6">
-                  <div class="tecnology">
-                    <img src="../assets/img/blog_music_techo-800x400.jpg" class="w-100" alt="#" />
+                  <div class="card my-3">
+                    <img src="../assets/img/blog-post4-600x900.jpg" class="w-100" alt="#" />
                     <div class="info_card">
                       <h6>Tecnology Music</h6>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Aliquam, sequi?
-                      </p>
+                      <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sequi? </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tecnology">
-              <img src="../assets/img/blog_music_techo-800x400.jpg" class="w-100" alt="#" />
+            <div class="card my-3">
+              <img src="../assets/img/blog_flavor_rock-1200x600.jpg" class="w-100" alt="#" />
               <div class="info_card">
                 <h6>Tecnology Music</h6>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Aliquam, sequi?
-                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sequi?</p>
               </div>
             </div>
           </div>
           <div class="col-4 pt-5">
-            <div class="card_right">
-              <img src="../assets/img/blog_music_techo-800x400.jpg" class="w-100" alt="" />
+            <div class="card my-3">
+              <img src="../assets/img/blog-post1-600x900.jpg" class="w-100" alt="" />
               <h6>Tecnology Music</h6>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquam, sequi?
-              </p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sequi?</p>
             </div>
-            <div class="card_right">
-              <img src="../assets/img/blog_music_techo-800x400.jpg" class="w-100" alt="" />
+            <div class="card my-3">
+              <img src="../assets/img/blog-post2-600x900.jpg" class="w-100" alt="" />
               <h6>Tecnology Music</h6>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquam, sequi?
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sequi?
               </p>
             </div>
           </div>
@@ -122,19 +98,42 @@ export default {
     <!-- section view_news-->
     <section id="view_news">
       <div class="container text-center p-5">
-        <span>
-          VIEW ALL LATEST NEWS
-        </span>
+        <span> VIEW ALL LATEST NEWS </span>
       </div>
     </section>
     <!-- ./ section view_news-->
 
+    <!-- section whit img-background and paragraph -->
+    <section id="info_album" class="d-flex justify-content-center align-items-center">
+      <div class="flex-column container d-flex text-center justify-content-between align-items-center p-5">
+        <p>"I Just listened to it and said to myseld, "man, i really love this album." still, today, it just sounds so fresh. It sounds full of
+          ideas. These guys wnew what they were doing. They're good. And they're inventrive. I haven't heard anything this year that's as inventive. Don't really expect to." </p>
+      </div>
+    </section>
+    <!-- ./ section whit img-background and paragraph -->
 
-    
+    <!-- section whit live dates-->
+    <section id="live_dates">
+      <div class="container text-center p-5">
+        <h2 class="p-2">Live Dates</h2>
+        <hr class="light_gray p3" />
+        <p class="light_gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatem itaque ipsa ipsum recusandae quos eaque numquam eius soluta, consectetur ducimus, dolor esse, dolorum inventore adipisci magnam explicabo? Exercitationem nobis officia quas delectus, error dolorem! </p>
+      </div>
+    </section>
+    <!-- ./ section whit live dates-->
+
+
+    <!-- section view_news-->
+    <section id="view_news">
+      <div class="container text-center p-5">
+        <span> VIEW ALL LATEST NEWS </span>
+      </div>
+    </section>
+    <!-- ./ section view_news-->
+
   </main>
 </template>
 
 <style lang="scss" scoped>
-
 
 </style>

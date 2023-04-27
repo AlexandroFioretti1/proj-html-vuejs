@@ -1,46 +1,79 @@
 @use "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
-
-
-/*   section Music_Life  */
+/* header region */
+/* section Music_Life  */
 #music_life {
   background-color: #6b6b6c;
   h2 {
     color: white;
   }
-
   .light_gray {
-    color: #aeaeaf ;
+    color: #aeaeaf;
   }
 }
 
 /*   section info_brand  */
 #info_latest_brand {
-    background-color: #292d39;
-    margin: -16px;
-  
-    h2 {
-      color: white;
-      margin: 20px;
-    }
-  
-    .light_gray {
-      color: #aeaeaf;
-    }
+  background-color: #292d39;
+  margin: -16px;
+  h2 {
+    color: white;
+    margin: 20px;
   }
+  .light_gray {
+    color: #aeaeaf;
+  }
+}
 
 /*   section lastest_brand  */
-  #latest_brand{
-    background-color: #292d39;
-    color: #aeaeaf;
-    h6{
-      color: #eb5b54;
-    }
+#latest_brand {
+  background-color: #292d39;
+  color: #aeaeaf;
+  .card{
+  background-color: #292d39;
+
   }
+  h6 {
+    color: #eb5b54;
+  }
+}
 
 /*   section view_news  */
-  #view_news{
-    background-color:#ea4e56 ;
+#view_news {
+  background-color: #ea4e56;
+  color: white;
+}
+
+/* section whit img-background+ info text */
+#info_album {
+  background-image: url(../img/home-testimonial-parallax.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 1000px;
+  width: 100%;
+}
+
+/* section live_dates */
+#live_dates {
+  background-color: #292d39;
+  margin: -16px;
+  h2 {
     color: white;
-  
   }
+  .light_gray {
+    color: #aeaeaf;
+  }
+}
+/* ./ section live_dates */
+/* ./ header region */
+
+/* footer region */
+#footer_nav {
+  background-color: #6b6b6c;
+  .light_c {
+    color: white;
+  }
+}
+
+/* ./ footer region */
