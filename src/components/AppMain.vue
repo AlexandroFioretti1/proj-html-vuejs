@@ -121,7 +121,7 @@ export default {
       <div class="accordion accordion-flush " id="accordionFlushExample">
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed bg_color " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">17/08/2020 GEM FESTIVAL 2020 ANAKALIA, GEORGIA.
+            <button class="accordion-button collapsed bg_color text-center justify-content-between " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">17/08/2020 GEM FESTIVAL 2020 ANAKALIA, GEORGIA.
             </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse bg_color" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -132,7 +132,7 @@ export default {
         </div>
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="flush-headingTwo">
-            <button class="accordion-button collapsed bg_color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <button class="accordion-button collapsed bg_color text-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
              24/09/2020 GROOVEFEST DOMICAL REPUBLIC
             </button>
           </h2>
@@ -144,7 +144,7 @@ export default {
         </div>
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="flush-headingThree">
-            <button class="accordion-button collapsed bg_color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">31/10/2020 OASIS GESTIVAL 2020 MARRAKECH, MAROCCO</button>
+            <button class="accordion-button collapsed bg_color text-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">31/10/2020 OASIS GESTIVAL 2020 MARRAKECH, MAROCCO</button>
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse bg_color" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body ">
@@ -154,7 +154,7 @@ export default {
         </div>
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="flush-headingFour">
-            <button class="accordion-button collapsed bg_color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">07/11/2020 MOGA FESTIVAL - ESSEOURIA, MAROCCO</button>
+            <button class="accordion-button collapsed bg_color text-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">07/11/2020 MOGA FESTIVAL - ESSEOURIA, MAROCCO</button>
           </h2>
           <div id="flush-collapseFour" class="accordion-collapse collapse bg_color" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body ">
@@ -164,7 +164,7 @@ export default {
         </div>
         <div class="accordion-item mb-3 ">
           <h2 class="accordion-header" id="flush-headingFive">
-            <button class="accordion-button collapsed bg_color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">10/12/2020 ENVISION FESTIVAL -UVITA, COSTA RICA</button>
+            <button class="accordion-button collapsed bg_color text-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">10/12/2020 ENVISION FESTIVAL -UVITA, COSTA RICA</button>
           </h2>
           <div id="flush-collapseFive" class="accordion-collapse collapse bg_color" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body ">
