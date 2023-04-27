@@ -14,27 +14,38 @@ export default {
 
 <template>
   <header>
+    <!-- img whit icon -->
     <div class="d-flex justify-content-between text-align-center">
       <img class="p-2" src="../assets/img/avada-music-logo.png" alt="Logo Header"/>
-      <div class="p-4">Icona f-awsome</div>
+      <div class="p-4"><font-awesome-icon icon="fa-solid fa-bars" style="color: #ffffff;" /></div>
     </div>
+    <!-- ./ img whit icon -->
+
+    <!-- title and paragraph  -->
     <div class="container text-center">
       <h1>Untold Stories</h1>
       <p>There is an untold story behind favorite song.</p>
+      <!-- ./ title and paragraph  -->
+
+      <!-- btn header -->
       <div class="pt-3 pb-5">
         <button class="bg_btn">LATEST ALBUM</button>
         <button class="bg_trasparent">LIVE DATES</button>
       </div>
+      <!-- ./ btn header -->
     </div>
   </header>
 </template>
 
 <style lang="scss" scoped>
+
 header {
   background-image: url(../assets/img/home_slider.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  height: 800px;
+ 
   .bg_btn {
     background-color: #eb4b54;
     color: white;
