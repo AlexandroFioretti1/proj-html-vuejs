@@ -1,5 +1,8 @@
 @use "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+
+/*   section Music_Life  */
 #music_life {
   background-color: #6b6b6c;
   h2 {
@@ -11,7 +14,8 @@
   }
 }
 
-#latest_brand {
+/*   section info_brand  */
+#info_latest_brand {
     background-color: #292d39;
     margin: -16px;
   
@@ -23,4 +27,20 @@
     .light_gray {
       color: #aeaeaf;
     }
+  }
+
+/*   section lastest_brand  */
+  #latest_brand{
+    background-color: #292d39;
+    color: #aeaeaf;
+    h6{
+      color: #eb5b54;
+    }
+  }
+
+/*   section view_news  */
+  #view_news{
+    background-color:#ea4e56 ;
+    color: white;
+  
   }
