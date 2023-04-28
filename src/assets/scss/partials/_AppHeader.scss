@@ -1,0 +1,20 @@
+header {
+    background-image: url(/src/assets/img/home_slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 800px;
+    .bg_btn {
+      background-color: #eb4b54;
+      color: white;
+      margin-right: 7px;
+      padding: 0 1rem;
+    }
+    .bg_trasparent {
+      background: transparent;
+      color: white;
+      margin-left: 7px;
+      border: solid 1px white;
+      padding: 0 1rem;
+    }
+  }

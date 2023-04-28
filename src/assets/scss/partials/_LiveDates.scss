@@ -1,0 +1,36 @@
+#live_dates {
+    background-color: #292d39;
+    h2 {
+      color: white;
+    }
+    .light_gray {
+      color: #aeaeaf;
+    }
+    .bg_light_gray{
+      background-color: #aeaeaf;
+    }
+    .bg_color{
+      background-color:#aeaeaf;
+      color: #ea4e56;
+    }
+    button::before{
+      flex-shrink: 0;
+      width: var(--bs-accordion-btn-icon-width);
+      height: var(--bs-accordion-btn-icon-width);
+      width: 20px;
+      content: "+";
+      background-repeat: no-repeat;
+      background-size: var(--bs-accordion-btn-icon-width);
+      transition: var(--bs-accordion-btn-icon-transition);
+      font-weight: 700;
+      color: white;
+      font-size: large;
+    }
+    button::after{
+      width: 20px;
+      background-image: unset;
+      margin-left: 0;
+      content: "";
+    }
+  }
+  

@@ -1,117 +1,26 @@
 @use "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
+@use "./partials/_AppHeader";
+
+@use "./partials/_AppFooter";
+
+@use "./partials/_MusicLife";
+
+@use "./partials/_InfoBrand";
+
+@use "./partials/_LatestBrand";
+
+@use "./partials/_InfoAlbum";
+
+@use "./partials/_LiveDates";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
 
 body {
   font-family: "Montserrat", sans-serif;
 }
-/* header region */
-/* section Music_Life  */
-#music_life {
-  background-color: #6b6b6c;
-  h2 {
-    color: white;
-  }
-  .light_gray {
-    color: #aeaeaf;
-  }
-}
 
-/*   section info_brand  */
-#info_latest_brand {
-  background-color: #292d39;
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-
-  h2 {
-    color: white;
-    margin: 20px;
-  }
-  .light_gray {
-    color: #aeaeaf;
-  }
-}
-
-/*   section lastest_brand  */
-#latest_brand {
-  background-color: #292d39;
-  color: #aeaeaf;
-  .card {
-    background-color: #292d39;
-  }
-  h5 {
-    color: #eb5b54;
-  }
-}
-
-/*   section view_news  */
-#view_news {
+#view_news, #view_dates {
   background-color: #ea4e56;
   color: white;
 }
-
-/* section whit img-background+ info text */
-#info_album {
-  background-image: url(../img/home-testimonial-parallax.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  height: 1000px;
-  width: 100%;
-  .card {
-    border: none;
-  }
-}
-
-/* section live_dates */
-#live_dates {
-  background-color: #292d39;
-  h2 {
-    color: white;
-  }
-  .light_gray {
-    color: #aeaeaf;
-  }
-  .bg_light_gray{
-    background-color: #aeaeaf;
-  }
-  .bg_color{
-    background-color:#aeaeaf;
-    color: #ea4e56;
-  }
-  button::before{
-    flex-shrink: 0;
-    width: var(--bs-accordion-btn-icon-width);
-    height: var(--bs-accordion-btn-icon-width);
-    width: 20px;
-    content: "+";
-    background-repeat: no-repeat;
-    background-size: var(--bs-accordion-btn-icon-width);
-    transition: var(--bs-accordion-btn-icon-transition);
-    font-weight: 700;
-    color: white;
-    font-size: large;
-  }
-  button::after{
-    width: 20px;
-    background-image: unset;
-    margin-left: 0;
-    content: "";
-
-  }
-}
-
-/* ./ section live_dates */
-/* ./ header region */
-
-/* footer region */
-#footer_nav {
-  background-color: #6b6b6c;
-  a {
-    text-decoration: none;
-    color: #aeaeaf;
-  }
-}
-
-/* ./ footer region */
