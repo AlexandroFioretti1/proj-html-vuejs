@@ -1,6 +1,12 @@
 <script>
+import {socialNets} from "../assets/data/socialNets"
+
+
 export default {
   name: "FooterCopyright",
+  data(){
+    return{socialNets}
+  },
 }
 </script>
 
@@ -15,18 +21,16 @@ export default {
         <li>POWERED BY WORDPRESS</li>
       </ul>
 
-
-      <div class="social gap-2 d-flex justify-content-between text-align-center p-4">
-        <div><font-awesome-icon icon="fa-brands fa-facebook"  style="color: #d6d6d6 ; font-size: 2rem;" /></div>
-        <div><font-awesome-icon icon="fa-brands fa-twitter" style="color: #d6d6d6; ; font-size: 2rem" /></div>
-        <div><font-awesome-icon icon="fa-brands fa-instagram" style="color: #d6d6d6; ; font-size: 2rem" /></div>
-        <div><font-awesome-icon icon="fa-brands fa-youtube" style="color: #d6d6d6; ; font-size: 2rem" /></div>
+      <div class="social gap-2 d-flex justify-content-between text-align-center  p-4">
+        <ul class="list-unstyled d-flex gap-3">
+          <li v-for="brand in socialNets">
+            <a :href="brand.path"> <font-awesome-icon :icon="brand.name" style="color: #d6d6d6 ; font-size: 2rem;" />  </a>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
   <!-- ./ section footer_copyright -->
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

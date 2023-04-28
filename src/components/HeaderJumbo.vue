@@ -1,14 +1,15 @@
 <script>
+import OffCanvas from "./OffCanvas.vue"
 export default {
     name: "HeaderJumbo",
+    components: {OffCanvas},
 }
 </script>
 
 <template>
     <div class="d-flex justify-content-between text-align-center">
-        <img class="p-5" src="../assets/img/avada-music-logo.png" alt="Logo Header" />
         <div class="p-5">
-            <font-awesome-icon icon="fa-solid fa-bars " style="color: #ffffff; font-size: 2rem;"  />
+          <OffCanvas/>
         </div>
     </div>
 </template>

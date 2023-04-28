@@ -5,6 +5,8 @@ export default {
 </script>
 
 <template>
+
+
   <section id="live_dates">
     <div class="container text-center p-5">
       <h2 class="p-2">Live Dates</h2>
@@ -13,8 +15,12 @@ export default {
         ipsum recusandae quos eaque numquam eius soluta, consectetur ducimus, dolor esse, dolorum inventore adipisci
         magnam explicabo? Exercitationem nobis officia quas delectus, error dolorem! </p>
     </div>
+
+
     <div class="container pb-5">
       <div class="accordion accordion-flush " id="accordionFlushExample">
+
+        
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed bg_color text-center justify-content-between " type="button"
@@ -29,6 +35,9 @@ export default {
             </div>
           </div>
         </div>
+
+
+
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed bg_color text-center justify-content-between" type="button"

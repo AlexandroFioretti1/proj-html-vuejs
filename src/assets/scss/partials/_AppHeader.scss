@@ -23,5 +23,18 @@ header {
         padding: 0.5rem 3.5rem;
         font-size: 1.4rem;
       }
-
+    }
+    .navbar-toggler, .btn-close{
+      filter: invert(1);
+    }
+    .offcanvas{
+      background: #eb4b54;
+     
+      li{
+        font-size: 25px;
+       
+      }
+      a{
+        color: white;
+      }
     }

@@ -10,7 +10,6 @@ export default {
     <div class="container text-center ">
       <h1 class="title_text">Untold Stories</h1>
       <p><em> There is an untold story behind favorite song.</em></p>
-      <!-- ./ title and paragraph  -->
       <!-- btn header -->
       <button class="bg_btn">LATEST ALBUM</button>
       <button class="bg_trasparent">LIVE DATES</button>
