@@ -15,16 +15,18 @@ export default {
         <li>POWERED BY WORDPRESS</li>
       </ul>
 
-      <!-- aggiungere icone -->
+
       <div class="social gap-2 d-flex justify-content-between text-align-center p-4">
-        <div>fb</div>
-        <div>tw</div>
-        <div>insta</div>
-        <div>yt</div>
+        <div><font-awesome-icon icon="fa-brands fa-facebook"  style="color: #d6d6d6 ; font-size: 2rem;" /></div>
+        <div><font-awesome-icon icon="fa-brands fa-twitter" style="color: #d6d6d6; ; font-size: 2rem" /></div>
+        <div><font-awesome-icon icon="fa-brands fa-instagram" style="color: #d6d6d6; ; font-size: 2rem" /></div>
+        <div><font-awesome-icon icon="fa-brands fa-youtube" style="color: #d6d6d6; ; font-size: 2rem" /></div>
       </div>
     </div>
   </section>
   <!-- ./ section footer_copyright -->
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

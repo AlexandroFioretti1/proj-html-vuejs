@@ -21,8 +21,9 @@ export default {
   <header class="d-flex justify-content-between text-align-center flex-column">
     <HeaderJumbo />
     <JumboText />
-
   </header>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

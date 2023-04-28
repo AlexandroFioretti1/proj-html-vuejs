@@ -14,7 +14,15 @@ import {
     faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faBars)
+import { 
+    faFacebook,
+    faInstagram,
+    faTwitter,
+    faYoutube
+} from "@fortawesome/free-brands-svg-icons";
+
+
+library.add(faBars, faFacebook, faInstagram, faYoutube, faTwitter)
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
 

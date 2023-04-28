@@ -18,7 +18,6 @@ export default {
     InfoAlbum,
     LiveDates,
     ViewDates,
-
   },
   data() {
     return {
@@ -46,21 +45,19 @@ export default {
     <ViewNews />
     <!-- ./ section view_news-->
 
-
     <!-- section whit img-background and paragraph -->
     <InfoAlbum />
     <!-- ./ section whit img-background and paragraph -->
-
 
     <!-- section whit live dates-->
     <LiveDates />
     <!-- ./ section whit live dates-->
 
-
     <!-- section view_news-->
     <ViewDates />
     <!-- ./ section view_news-->
   </main>
+  
 </template>
 
 <style lang="scss" scoped>

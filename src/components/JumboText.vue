@@ -9,7 +9,7 @@ export default {
   <div class="jumbo_text m-auto">
     <div class="container text-center ">
       <h1 class="title_text">Untold Stories</h1>
-      <p>There is an untold story behind favorite song.</p>
+      <p><em> There is an untold story behind favorite song.</em></p>
       <!-- ./ title and paragraph  -->
       <!-- btn header -->
       <button class="bg_btn">LATEST ALBUM</button>
@@ -18,4 +18,7 @@ export default {
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+
+</style>

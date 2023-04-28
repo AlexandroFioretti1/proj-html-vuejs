@@ -8,7 +8,7 @@ export default {
   <section id="live_dates">
     <div class="container text-center p-5">
       <h2 class="p-2">Live Dates</h2>
-      <hr class="light_gray p3" />
+      <hr width="30%" class="light_gray p3" />
       <p class="light_gray">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatem itaque ipsa
         ipsum recusandae quos eaque numquam eius soluta, consectetur ducimus, dolor esse, dolorum inventore adipisci
         magnam explicabo? Exercitationem nobis officia quas delectus, error dolorem! </p>
@@ -88,4 +88,6 @@ export default {
   </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

@@ -6,4 +6,17 @@
   .light_gray {
     color: #aeaeaf;
   }
+  hr{
+    margin: 3rem auto;
+  }
+  .red_border{
+    height: 20px;
+    background-color: red;
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    top:0;
+    right: 40%;
+    
+  }
 }
