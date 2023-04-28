@@ -1,26 +1,26 @@
 export const canvas = [
     { name: "Home",
-      path: "#",
+      path: "#top",
     },
   
     { name: "Meet The Band",
-    path: "#",
+    path: "#music_life",
     },  
   
     { name: "Live Dates",
-    path: "#",
+    path: "#live_dates",
     },
   
     { name: "Latest News",
-    path: "#",
+    path: "#latest_brand",
     },
 
     { name: "Albums",
-    path: "#",
+    path: "#info_album",
     },
 
     { name: "Fans",
-    path: "#",
+    path: "#copyright_footer",
     },
   ]
   

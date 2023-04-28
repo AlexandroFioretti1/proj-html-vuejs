@@ -21,7 +21,6 @@ import {
     faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 
-
 library.add(faBars, faFacebook, faInstagram, faYoutube, faTwitter)
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

@@ -6,6 +6,11 @@ export default {
         return{
             canvas
         }
+    },methods:{
+        closeCanvas(){
+        const closeBtn = document.querySelector(".btn-close")
+        closeBtn.click()
+        }
     }
 }
 </script>
@@ -24,7 +29,7 @@ export default {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div class="offcanvas offcanvas-end w-100 d-flex flex-column justify-content-center align-items-center gap-4 "
+                <div  class="offcanvas offcanvas-end w-100 d-flex flex-column justify-content-center align-items-center gap-4 "
                     tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header w-100 position-fixed top-0 start-0 ">
                         <img class="p-5" src="../assets/img/avada-music-logo.png" alt="Logo Header" />
@@ -32,7 +37,7 @@ export default {
                     </div>
                     <div class="offcanvas-body d-flex justify-content-center align-items-center flex-column gap-3">
                         <ul class="navbar-nav text-center pe-3 gap-5 d-flex flex-column justify-content-between align-items-center ">
-                            <li v-for="item in canvas" class="nav-item">
+                            <li @click="closeCanvas()" v-for="item in canvas" class="nav-item">
                                 <a class="nav-link" :href="item.path">{{ item.name }}</a>
                             </li>
                         </ul>
@@ -43,4 +48,6 @@ export default {
     </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

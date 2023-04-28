@@ -20,11 +20,10 @@ export default {
         <li>ALL RIGHTS RESERVED |</li>
         <li>POWERED BY WORDPRESS</li>
       </ul>
-
       <div class="social gap-2 d-flex justify-content-between text-align-center  p-4">
         <ul class="list-unstyled d-flex gap-3">
           <li v-for="brand in socialNets">
-            <a :href="brand.path"> <font-awesome-icon :icon="brand.name" style="color: #d6d6d6 ; font-size: 2rem;" />  </a>
+            <a :href="brand.path"><font-awesome-icon :icon="brand.name" style="color: #d6d6d6 ; font-size: 2rem;" /></a>
           </li>
         </ul>
       </div>
@@ -33,4 +32,6 @@ export default {
   <!-- ./ section footer_copyright -->
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
